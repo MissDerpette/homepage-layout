@@ -1,0 +1,81 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+    margin: 10px;
+    height: auto;
+    border: 3px solid black;
+    background-color: #dfdfdf86;
+    
+}
+html {
+    justify-content: space-around;
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+}
+
+.header {
+    margin: 10px;
+    border: 3px solid black;
+    background-color: #dfdfdf; 
+    position: relative;
+    display: flex;
+}
+
+.mini-header, .sub {
+    justify-content: space-around;
+    display: flex;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: #dfdfdf;
+}
+
+.sub-2 {
+    justify-content: space-around;
+    display: flex;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: #dfdfdf;
+  
+}
+.main-box {
+    display: flex;
+    height: 350px;
+    justify-content: space-around;
+}
+
+.box1, .box2 {
+    display: relative;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: #dfdfdf;
+    
+}
+
+.box2 {
+    background-size: cover;
+    background-image: url(https://static.scientificamerican.com/sciam/cache/file/EDE2EA4B-A3B3-444C-AB2F2666122C1CB3_source.jpg?w=590&h=800&D245AA15-50AC-4AC3-A60FB9D5AD2279EE);
+}
+
+.minor-box {
+    display: flex;
+    border: 3px solid black;
+    width: auto;
+    margin: 10px;
+    background-color: #dfdfdf;
+    justify-content: space-around;
+}
+
+
+
+
